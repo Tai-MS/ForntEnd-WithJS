@@ -4,7 +4,7 @@ function log_in(){
     let userEmail = document.getElementById("email").value;
     let userPass = document.getElementById("pass").value;
 
-    if(userName == "a" && userLastaName == "b" && userEmail == "asd@gmail.com" && userPass == "123"){
+    if(userName == "Taiel" && userLastaName == "Sagretti" && userEmail == "example@gmail.com" && userPass == "123"){
         window.location = "welcomePage.html";
     }
     else{
