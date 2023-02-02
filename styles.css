@@ -1,0 +1,115 @@
+/* 400/500/600/700*/
+/*GENERAL*/
+body{
+    width: 90rem;
+    background-image: url(./Images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    border-right: 1px solid black;
+}
+
+p, h2, h1, input{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+span{
+    font-weight: 700;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 35rem 45rem;
+    margin-left: 20rem;
+    margin-right: 5rem;
+    margin-top: 10rem;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/******/
+/*LEFT*/
+#left{
+    width: 31rem;
+    margin-top: 8rem;
+}
+
+#left p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/*******/
+/*RIGHT*/
+#right{
+    width: 33rem;
+}
+
+/******/
+/*SALE*/
+#sale{
+    background-color: hsl(248, 32%, 49%);
+    width: 33rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+#sale p{
+    padding-top: 0.8rem;
+}
+/***********/
+/*USER-INFO*/
+#user-info{
+    background-color: white;
+    border-radius: 10px;
+}
+
+#user-info input{
+    width: 27rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 0.094rem solid rgb(224, 224, 224);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+    font-weight: 600;
+    color: black;
+}
+
+#inputs{
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+button{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    border: 0px;
+    border-radius: 0.5rem;
+    width: 27rem;
+    height: 3rem;
+    margin-left: 3rem;
+    cursor: pointer;
+}
+
+#user-info p{
+    color: hsl(246, 25%, 77%);
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 3rem;
+}
+
+a{
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+    font-weight: 600;
+}
+
