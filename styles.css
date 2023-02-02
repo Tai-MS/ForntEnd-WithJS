@@ -4,7 +4,6 @@ body{
     width: 90rem;
     background-image: url(./Images/bg-intro-desktop.png);
     background-color: hsl(0, 100%, 74%);
-    border-right: 1px solid black;
 }
 
 p, h2, h1, input{
